@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:page_status/Resources/Private/Language/locallang_be.xlf" date="2026-04-01T21:17:00Z">
+    <header>
+      <author>TYPO3 Core Team</author>
+      <note>Backend language file for Page Status extension</note>
+    </header>
+    <body>
+      <trans-unit id="mlang_tabs_tab">
+        <source>Page Status</source>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tablabel">
+        <source>Page Status Monitoring</source>
+      </trans-unit>
+      <trans-unit id="mlang_labels_tabdescr">
+        <source>Monitor and check the status of your pages. View detailed information about page health, performance, and accessibility.</source>
+      </trans-unit>
+      
+      <!-- Scheduler Task -->
+      <trans-unit id="scheduler_task_title">
+        <source>Check Page Status</source>
+      </trans-unit>
+      <trans-unit id="scheduler_task_description">
+        <source>Automatically check all pages for availability and take screenshots</source>
+      </trans-unit>
+      
+      <!-- Module Labels -->
+      <trans-unit id="statistics">
+        <source>Statistics</source>
+      </trans-unit>
+      <trans-unit id="total_pages">
+        <source>Total Pages</source>
+      </trans-unit>
+      <trans-unit id="online_pages">
+        <source>Online Pages</source>
+      </trans-unit>
+      <trans-unit id="offline_pages">
+        <source>Offline Pages</source>
+      </trans-unit>
+      <trans-unit id="filter">
+        <source>Filter</source>
+      </trans-unit>
+      <trans-unit id="filter_all">
+        <source>All Pages</source>
+      </trans-unit>
+      <trans-unit id="filter_online">
+        <source>Online Only</source>
+      </trans-unit>
+      <trans-unit id="filter_offline">
+        <source>Offline Only</source>
+      </trans-unit>
+      <trans-unit id="select_page">
+        <source>Select Page</source>
+      </trans-unit>
+      <trans-unit id="select_all_pages">
+        <source>All Pages</source>
+      </trans-unit>
+      <trans-unit id="check_all_pages">
+        <source>Check All Pages</source>
+      </trans-unit>
+      <trans-unit id="page_status_results">
+        <source>Page Status Results</source>
+      </trans-unit>
+      <trans-unit id="page_id">
+        <source>ID</source>
+      </trans-unit>
+      <trans-unit id="page_title">
+        <source>Title</source>
+      </trans-unit>
+      <trans-unit id="url">
+        <source>URL</source>
+      </trans-unit>
+      <trans-unit id="status">
+        <source>Status</source>
+      </trans-unit>
+      <trans-unit id="http_code">
+        <source>HTTP Code</source>
+      </trans-unit>
+      <trans-unit id="last_check">
+        <source>Last Check</source>
+      </trans-unit>
+      <trans-unit id="screenshot">
+        <source>Screenshot</source>
+      </trans-unit>
+      <trans-unit id="actions">
+        <source>Actions</source>
+      </trans-unit>
+      <trans-unit id="online">
+        <source>Online</source>
+      </trans-unit>
+      <trans-unit id="offline">
+        <source>Offline</source>
+      </trans-unit>
+      <trans-unit id="view_screenshot">
+        <source>View</source>
+      </trans-unit>
+      <trans-unit id="recheck">
+        <source>Re-check</source>
+      </trans-unit>
+      <trans-unit id="no_screenshot">
+        <source>N/A</source>
+      </trans-unit>
+      <trans-unit id="no_records_found">
+        <source>No page status records found. Click "Check All Pages" to start monitoring.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

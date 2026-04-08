@@ -1,0 +1,26 @@
+{
+	"name": "exdeliver/typo3-page-status",
+	"type": "typo3-cms-extension",
+	"description": "Page Status Monitoring Extension for TYPO3",
+	"require": {
+		"typo3/cms-core": "^13.4 || ^14.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.5 || ^11.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Exdeliver\\PageStatus\\": "Classes/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Exdeliver\\PageStatus\\Tests\\": "Tests/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "page_status"
+		}
+	}
+}

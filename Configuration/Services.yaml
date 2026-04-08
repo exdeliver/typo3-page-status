@@ -1,0 +1,19 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Exdeliver\PageStatus\:
+    resource: "../Classes/*"
+    exclude:
+      - "../Classes/Domain/Model/*"
+      - "../Classes/Event/*"
+      - "../Classes/EventListener/*"
+
+  Exdeliver\PageStatus\Controller\PageStatusModuleController:
+    public: true
+    tags: ["backend.controller"]
+
+  Exdeliver\PageStatus\Service\ScreenshotService:
+    public: true
