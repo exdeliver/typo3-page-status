@@ -13,11 +13,6 @@
 			"Exdeliver\\PageStatus\\": "Classes/"
 		}
 	},
-	"autoload-dev": {
-		"psr-4": {
-			"Exdeliver\\PageStatus\\Tests\\": "Tests/"
-		}
-	},
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "page_status"
